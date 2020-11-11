@@ -12,6 +12,7 @@ namespace ReadData
 
             var db = new AppVentaCursoContext();
 
+            //Join tables with include. If there is N-M relation, you must use Include and ThenInclude
             var cursos = db.Curso.Include(p => p.PrecioPromocion)
                                  .Include(c => c.ComentarioLista)
                                  .Include(i => i.CursoInstructors)
@@ -32,8 +33,6 @@ namespace ReadData
                 }
 
             }
-
-
 
         }
     }
