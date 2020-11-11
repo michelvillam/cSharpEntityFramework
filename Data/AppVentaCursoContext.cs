@@ -15,8 +15,9 @@ namespace ReadData.Data
         }
 
         //Configuring model to do N-M relation with curso and instructor.
-        protected override void OnModelCreating(ModelBuilder modelBuilder){
-            modelBuilder.Entity<CursoInstructor>().HasKey(ci => new {ci.CursoId, ci.InstructorId});
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<CursoInstructor>().HasKey(ci => new { ci.CursoId, ci.InstructorId });
         }
 
         public DbSet<Curso> Curso { get; set; }

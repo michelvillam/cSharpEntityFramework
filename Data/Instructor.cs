@@ -22,7 +22,7 @@ namespace ReadData.Data
         [Column("foto_perfil")]
         public byte[] FotoPerfil { get; set; }
 
-        public ICollection<CursoInstructor> CursoInstructors{get; set;}
-        
+        public ICollection<CursoInstructor> CursoInstructors { get; set; }
+
     }
 }

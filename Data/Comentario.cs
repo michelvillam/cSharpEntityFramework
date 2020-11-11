@@ -19,9 +19,9 @@ namespace ReadData.Data
         public string ComentarioTexto { get; set; }
 
         [Column("curso_id")]
-        public int CursoId  { get; set; }
+        public int CursoId { get; set; }
 
-        public Curso Curso {get; set;}
-        
+        public Curso Curso { get; set; }
+
     }
 }

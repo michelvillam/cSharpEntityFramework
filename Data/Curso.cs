@@ -22,11 +22,11 @@ namespace ReadData.Data
         [Column("foto_portada")]
         public Byte[] FotoPortada { get; set; }
 
-        public Precio PrecioPromocion{get; set;}
+        public Precio PrecioPromocion { get; set; }
 
-        public ICollection<Comentario> ComentarioLista{get; set;}
+        public ICollection<Comentario> ComentarioLista { get; set; }
 
-        public ICollection<CursoInstructor> CursoInstructors{get; set;}
+        public ICollection<CursoInstructor> CursoInstructors { get; set; }
 
     }
 }

@@ -29,7 +29,7 @@ namespace ReadData
 
                 foreach (var cursoInstructor in curso.CursoInstructors)
                 {
-                    Console.WriteLine( "Instructor: " + cursoInstructor.Instructor.Nombre + " " + cursoInstructor.Instructor.Apellidos);
+                    Console.WriteLine("Instructor: " + cursoInstructor.Instructor.Nombre + " " + cursoInstructor.Instructor.Apellidos);
                 }
 
             }

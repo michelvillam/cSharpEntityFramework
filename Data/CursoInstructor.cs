@@ -8,12 +8,12 @@ namespace ReadData.Data
 
         [Column("curso_id")]
         public int CursoId { get; set; }
-        public Curso Curso{get; set;}
+        public Curso Curso { get; set; }
 
         [Column("instructor_id")]
         public int InstructorId { get; set; }
 
-        public Instructor Instructor{get; set;}
+        public Instructor Instructor { get; set; }
 
     }
 }
